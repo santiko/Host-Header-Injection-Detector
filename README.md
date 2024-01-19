@@ -12,7 +12,8 @@ cd Host-Header-Injection-Detector
 chmod +x ort
 mv ort /usr/local/bin
 ```
-
+# Note
+Make sure `figlet` is available in storage. If it's not available, download it `apt install figlet`
 # How to use
 `ort --d domain` (main domain or subdomain in file)
 
