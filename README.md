@@ -9,16 +9,15 @@ Wishes be useful for all.
 ```
 git clone https://github.com/santiko/Host-Header-Injection-Detector.git
 cd Host-Header-Injection-Detector
-chmod +x ort
-mv ort /usr/local/bin
+chmod +x hhi
+mv hhi /usr/local/bin
 ```
 # Note
 Make sure `figlet` is available in storage. If it's not available, download it `apt install figlet`
 # How to use
-`ort --d domain` (main domain or subdomain in file)
+`hhi --d domain` (main domain or subdomain in file)
 
 # Example
 ```
-ort --d google.com
-ort --d subdomain.txt
+hhi --d subdomain.txt
 ```
